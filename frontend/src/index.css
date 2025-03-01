@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.login-container {
+  background-color: #008f97;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  width: 350px;
+  background-color: #1d2c4f;
+  max-height: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px;
+}
+
+.sign-in-heading-container {
+  position: relative;
+}
+
+.sign-in-heading {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #00f5e1;
+  color: black;
+  padding: 10px;
+  border-radius: 2px;
+  width: 120px;
+}
+
+.login-btn {
+  background-color: #00f5e1 !important;
+  color: black;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  color: black !important;
+}
+
+.dont-have-acc-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.account-text {
+  color: white;
+}
+
+.form-text {
+  color: #00f5e1;
+  cursor: pointer;
+}
+
+/* signup page styles */
+
+.signup-container {
+  background-color: #008f97;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form-container {
+  width: 350px;
+  background-color: #1d2c4f;
+  max-height: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px;
+}
+
+.signup-up-heading {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #00f5e1;
+  color: black;
+  padding: 10px;
+  border-radius: 2px;
+  width: 120px;
+}
+
+.already-have-acc-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.signup-btn {
+  background-color: #00f5e1 !important;
+  color: black;
+  margin-top: 10px;
+}
+
+.signup-btn:hover {
+  color: black !important;
+}
+
+
+/* details styles */
+
+.details-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.table-container{
+  width: 90%;
+}
+
+.logout-btn{
+  margin-top: 20px;
+}

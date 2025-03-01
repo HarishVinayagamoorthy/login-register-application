@@ -1,0 +1,12 @@
+# Node.js modules
+/frontend/node_modules/
+/backend/node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+/backend/.env
+
+
